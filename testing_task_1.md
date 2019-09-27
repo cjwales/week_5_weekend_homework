@@ -28,7 +28,7 @@ def self.cards_total(cards)
   total  #total is not defined
   for card in cards
     total += card.value
-    return "You have a total of" + total #return should be after the next end
+    return "You have a total of" + total #return should be after the next end && total variable on line 31 requires .to_s()
   end
 end
 
