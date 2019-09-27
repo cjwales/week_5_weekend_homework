@@ -31,3 +31,10 @@ class CardGame
   end
 
 end
+
+#define method
+# if statement that checks value of card.value
+#return true if statement resolves as true
+#else
+#return false if statement resolves as not true
+#end of method
